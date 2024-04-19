@@ -1,0 +1,43 @@
+@import "../../vars.css";
+
+.educationCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 20px;
+}
+
+.title{
+    color: var(--color-text) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.educationImage{
+    flex: 0 0 auto;
+    max-width: 200px;
+    margin-right: 20px;
+   display: block;
+   margin: 0 auto;
+}
+.educationImage img{
+    width: 50%;
+    height: auto;
+}
+.educationCardDetails{
+    flex: 1; 
+    color:var(--color-text) ;
+    
+}
+.educationCard h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.educationCard p{
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .educationCard {
+      grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+  }

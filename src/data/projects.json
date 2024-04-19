@@ -1,0 +1,19 @@
+[
+    {
+      "title": "EatRepeat",
+      "imageSrc": "projects/EatRepeat.png",
+      "description": "This is a food ordering website. In which one can create restaurant and also order from other restaurant too.",
+      "skills": ["React", "Express", "Node","MongoDB","TypeScript"],
+      "demo": "https://foodapp-frontend-xjoe.onrender.com/",
+      "source": "https://github.com/khushalb2l/foodApp-frontend"
+    },
+    {
+      "title": "Movix",
+      "imageSrc": "projects/movix.png",
+      "description": "A website created for movie enthusiastic. In which user can search movies and tv shows and see their rating, description, cast.",
+      "skills": ["React", "SCSS","TheMovieDataBase"],
+      "demo": "https://movix-tau-rust.vercel.app/",
+      "source": "https://github.com/khushalb2l/Movix"
+    }
+    
+  ]
